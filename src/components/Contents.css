@@ -1,0 +1,239 @@
+/********************* BEST,RECOMMEND *********************/
+.best-container,
+.recommend-container,
+.gift-container,
+.banner-container,
+.store-container,
+.insta-container {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+.best-container .best__title,
+.recommend-container .rec__title,
+.gift-container .gift__title,
+.insta-container .insta__title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.best-container .best_box,
+.recommend-container .rec_box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.best-container .best_box .best,
+.recommend-container .rec_box .recommend {
+  width: 280px;
+  margin-right: 26.6666px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  margin-bottom: 26px;
+  position: relative;
+  transition: all 0.6s;
+}
+
+.best-container .best_box .best:hover,
+.recommend-container .rec_box .recommend:hover {
+  border: 1px solid #ed5c22;
+  box-sizing: border-box;
+}
+
+.best-container .best_box .best:nth-child(4),
+.best-container .best_box .best:nth-child(8),
+.recommend-container .rec_box .recommend:nth-child(4),
+.recommend-container .rec_box .recommend:nth-child(8) {
+  margin-right: 0;
+}
+
+.best-container .best img,
+.recommend-container .recommend img {
+  width: 278px;
+  height: 278px;
+}
+
+.best-container .best_box .best .txt_box,
+.recommend-container .rec_box .recommend .txt_box {
+  padding: 10px 30px;
+  box-sizing: border-box;
+}
+
+.best-container .best_box .best .txt_box .best_desc,
+.recommend-container .rec_box .recommend .txt_box .best_desc {
+  font-size: 13px;
+  margin-bottom: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.best-container .best_box .best .txt_box .best_title,
+.recommend-container .rec_box .recommend .txt_box .best_title {
+  font-size: 18px;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+
+}
+
+.best-container .best_box .best .txt_box .best_price,
+.recommend-container .rec_box .recommend .txt_box .best_price {
+  color: #ed5c22;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.best-container .best_box .best .txt_box .best_price span,
+.recommend-container .rec_box .recommend .txt_box .best_price span {
+  font-size: 20px;
+  color: #bcbcbc;
+  font-weight: 300;
+  position: relative;
+  margin-right: 5px;
+}
+
+.best-container .best_box .best .txt_box .best_price span::after,
+.recommend-container .rec_box .recommend .txt_box .best_price span::after {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 1px;
+  background: #ed5c22;
+}
+
+.best-container .best_box .best .best_btn,
+.recommend-container .rec_box .recommend .rec_btn {
+  height: 54px;
+  border-top: 1px solid #ddd;
+}
+
+.best-container .best_box .best .best_btn .love,
+.recommend-container .rec_box .recommend .rec_btn .love {
+  border-right: 1px solid #ddd;
+}
+
+.tag_box {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 54px;
+  height: 24px;
+}
+
+.best-container .tag_box img,
+.recommend-container .tag_box img {
+  width: 54px;
+  height: 24px;
+  margin-bottom: 5px;
+}
+
+
+
+/* gift */
+.gift_box {
+  display: flex;
+}
+.gift_box .gift_pro {
+  margin-right: 16px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+
+}
+.gift_box .gift_pro:last-child {
+  margin: 0;
+}
+.gift_box .gift_pro .txt {
+  text-align: center;
+}
+.gift_box .gift_pro .txt .title {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 5px 0;
+}
+.gift_box .gift_pro .txt .sub {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.gift_box .gift_pro .txt .price {
+  color: #ed5c22;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+
+/* banner  */
+.banner-container .banner_box {
+  display: flex;
+}
+.banner-container .banner_box .banner {
+  width: 400px;
+  text-align: center;
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 46px 15px;
+  box-sizing: border-box;
+  font-weight: 600;
+}
+.banner-container .banner_box .banner img {
+  margin: 0 auto;
+}
+.banner-container .banner_box .banner .title  {
+  font-size: 18px;
+  color: #222;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.banner-container .banner_box .banner .sub {
+  font-size: 15px;
+  color: #666;
+}
+
+/* store */
+.store-container .store_box {
+  display: flex;
+} 
+.store-container .store_box .store {
+  width: 588px;
+  height: 218px;
+  margin-right: 24px;
+  display: flex;
+  border: 1px solid #ddd;
+}
+.store-container .store_box .store:last-child {
+  margin: 0;
+}
+.store-container .store_box .store .txt {
+  padding: 54.5px 20px;
+  box-sizing: border-box;
+  background: #f8f8f8;
+  width: 100%;
+}
+.store-container .store_box .store .txt .badge {
+  display: inline-block;
+  background: #ed5c22;
+  color: #fff;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 5px 10px;
+}
+.store-container .store_box .store .txt .title {
+  font-size: 20px;  
+  margin: 10px 0 5px 0;
+  font-weight: 600;
+}
+.store-container .store_box .store .txt .sub {
+  font-size: 14px;
+  color: #666;
+  white-space: pre-line
+}

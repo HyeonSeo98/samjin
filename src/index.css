@@ -1,0 +1,267 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {margin: 0;padding: 0;}
+li {list-style: none;}
+img {display: block;}
+a {text-decoration: none; color: black;}
+/********************* HEADER *********************/
+.header__container {
+  width: 100%;
+}
+
+.header__container .gnb {
+  width: 100%;
+  background: #231916;
+}
+
+.header__container .gnb ul {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: end;
+}
+
+.header__container .gnb ul li {
+  color: #fff;
+  font-size: 12px;
+  padding: 5px 10px;
+}
+
+.header__container .logo {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.header__container .logo .logo_box {
+  width: 159px;
+  height: 58px;
+  margin: 0 auto;
+}
+
+.header__container .logo .logo_box img {
+  width: 100%;
+  height: 100%;
+}
+
+.header__container .lnb {
+  width: 100%;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.header__container .lnb ul {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.header__container .lnb ul li {
+  padding: 13px 25px;
+}
+
+
+/********************* FOOTER *********************/
+.footerTop-container {
+  width: 100%;
+  padding: 40px 0;
+  box-sizing: border-box;
+  border-top: 1px solid #ddd;
+  margin-top: 100px;
+}
+.footerTop-container .containerT {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+.footerTop-container .title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.footerTop-container .contact {
+  padding-right: 30px;
+  box-sizing: border-box;
+  border-right: 1px solid #ddd;
+}
+.footerTop-container .contact .container {
+  display: flex;
+}
+.footerTop-container .contact .left .call01 {
+  font-size: 29px;
+  font-weight: 700;
+  color: #ed5c22;
+}
+.footerTop-container .contact .left .call02 {
+  font-size: 21px;
+  color: #ed5c22;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.footerTop-container .contact .left .call02 span {
+  font-size: 14px;
+  color: #000;
+}
+.footerTop-container .contact .left .time {
+  font-size: 14px;
+  color: #666;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+.footerTop-container .contact .left .kcpservice {
+  margin-top: 10px;
+}
+.footerTop-container .contact .left .kcpservice .kcp {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.footerTop-container .contact .left .kcpservice .real a {
+  font-size: 13px;
+  color: #666;
+  border-bottom: 1px solid #666;
+}
+.footerTop-container .contact .right {
+  margin-left: 20px;
+}
+
+
+.footerTop-container .bank {
+  width: 390px;
+  padding: 0 30px;
+  box-sizing: border-box;
+  border-right: 1px solid #ddd;
+}
+.footerTop-container .bank .container {
+  position: relative;
+}
+.footerTop-container .bank .container .txt {
+  font-size: 14px;
+  color: #666;
+}
+.footerTop-container .bank .container .bankN {
+  font-size: 25px;
+  font-weight: 600;
+  color: #ed5c22;
+  margin: 5px 0;
+}
+.footerTop-container .bank .container .name {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.footerTop-container .bank .container .name span {
+  margin-left: 10px;
+  position: relative;
+}
+.footerTop-container .bank .container .name span::before {
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 20px;
+  background: #666;
+  display: block;
+  top: 0;
+  left: -5px;
+}
+.footerTop-container .bank .container .img_box {
+  position: absolute;
+  right: 0;
+  top: 45px;
+  display: flex ;
+}
+.footerTop-container .bank .container .img_box p {
+  margin-right: 5px;
+}
+.footerTop-container .bank .container .img_box p:first-child {
+  width: 58px;
+  height: 52px;
+}
+.footerTop-container .bank .container .img_box p:last-child {
+  width: 51px;
+  height: 52px;
+}
+.footerTop-container .bank .container .img_box img {
+  width: 100%;
+}
+
+
+.footerTop-container .notice {
+  width: 423px;
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+.footerTop-container .notice .not {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 15px;
+  color: #666;
+}
+
+
+
+
+.footerBottom-container {
+  /* width: 100%; */
+  background-color: #231916;
+}
+.footerBottom-container .containerB {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0;
+  box-sizing: border-box;
+  position: relative;
+}
+.footerBottom-container .containerB .footer_menu {
+  display: flex;
+}
+.footerBottom-container .containerB .footer_menu li  {
+  margin-right: 5px;
+}
+.footerBottom-container .containerB .footer_bottom {
+  padding-top: 70px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  color: #fff;
+  font-size: 14px;
+}
+.footerBottom-container .containerB .footer_bottom p {
+  margin-bottom: 5px;
+}
+.footerBottom-container .containerB .copy {
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 12px;
+  padding-top: 40px;
+  box-sizing: border-box;
+}
+.footerBottom-container .logo {
+  position: absolute;
+  top: 120px;
+  right: 0;
+  text-align: center;
+}
+.footerBottom-container .logo p:first-child {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+.footerBottom-container .logo p:last-child {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
