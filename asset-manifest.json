@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/samjin/static/css/main.049b53d4.css",
+    "main.js": "/samjin/static/js/main.d0a91b61.js",
+    "static/js/787.3a121bbc.chunk.js": "/samjin/static/js/787.3a121bbc.chunk.js",
+    "index.html": "/samjin/index.html",
+    "main.049b53d4.css.map": "/samjin/static/css/main.049b53d4.css.map",
+    "main.d0a91b61.js.map": "/samjin/static/js/main.d0a91b61.js.map",
+    "787.3a121bbc.chunk.js.map": "/samjin/static/js/787.3a121bbc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.049b53d4.css",
+    "static/js/main.d0a91b61.js"
+  ]
+}
